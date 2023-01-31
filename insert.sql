@@ -27,22 +27,21 @@ insert into clients (Client_ID,Contact_Phone,Client_name,Contact_email) values('
 insert into clients (Client_ID,Contact_Phone,Client_name,Contact_email) values('C2345','69502952','Cessna','client@cessna.txtav.com');
 insert into clients (Client_ID,Contact_Phone,Client_name,Contact_email) values('CI389','73975923','Cirrus','client@cirrus.com');
 
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
-insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id) values();
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A1','Airbus','2016-01-25','CFML1A','A320-Neo','A442065','A1246');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A2','Airbus','2016-01-25','CFML1A','A321-Neo','A442068','A1246');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A3','Airbus','1987-02-22','CFM56B','A320-200','A442060','A1246');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A4','Airbus','','','','','');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A5','','','','','','');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A6','','','','','','');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A7','','','','','','');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A8','','','','','','');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A9','','','','','','');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A10','','','','','','');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A11','','','','','','');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A12','','','','','','');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A13','','','','','','');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A15','','','','','','');
+insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A14','','','','','','');
 
 insert into ENGINE (Quantity,Engine_model,compatible_aircrafts,ManufacturerID) values();
 insert into ENGINE (Quantity,Engine_model,compatible_aircrafts,ManufacturerID) values();
