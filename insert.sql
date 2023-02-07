@@ -28,7 +28,7 @@ insert into clients (Client_ID,Contact_Phone,Client_name,Contact_email) values('
 insert into clients (Client_ID,Contact_Phone,Client_name,Contact_email) values('CI389','73975923','Cirrus','client@cirrus.com');
 
 insert into Components (id,aircraft_name,service_launch_date,Engine_ID,Model,Computer_manufacturer_id,Client_ID) values('A1','Airbus','2016-01-25','CFML1A','A320-Neo','A442065','A1246');
-INSERT INTO Conponents (id, aircraft_name, service_launch_date, Engine_ID, Model,Computer_manufacturer_id,Client_ID)
+INSERT INTO Components (id, aircraft_name, service_launch_date, Engine_ID, Model,Computer_manufacturer_id,Client_ID)
 VALUES 
 ('A2', 'Airbus', '2018-01-15', 'CFML1-A', 'A321-Neo','A442068','A1246'),
 ('A3', 'Airbus', '2018-01-15', 'RRT7000', 'A330-Neo','A452065','A1246'),
