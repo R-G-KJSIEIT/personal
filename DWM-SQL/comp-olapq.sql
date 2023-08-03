@@ -28,3 +28,10 @@ ORDER BY Cores DESC
 LIMIT 5;
 
 
+# Minor Corrections
+
+mysql> delete from hardware
+    -> where CPU LIKE "%NVIDIA%";
+update hardware set PSU = "900W" where GPU_MODEL LIKE "%70%";
+update hardware set PSU = "900W" where GPU_MODEL LIKE "%80%";
+update hardware set PSU = "1200W" where GPU_MODEL LIKE "%90%";
