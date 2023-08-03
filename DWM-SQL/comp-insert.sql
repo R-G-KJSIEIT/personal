@@ -101,14 +101,34 @@ VALUES
 
 
 -- Insert 25 entries into the Storage table
-INSERT INTO Storage (Manufacturer, Capacity, Type)
-VALUES
-    ('Seagate', '1TB HDD', 'HDD'),
-    ('Samsung', '512GB SSD', 'SSD'),
-    ('Western Digital', '2TB HDD', 'HDD'),
-    -- Add more entries here
-    -- ... (repeat for 22 more entries)
-    ('ADATA', '1TB SSD', 'SSD');
+INSERT INTO Storage (Manufacturer, Capacity, Type, Model)
+VALUES 
+    ('Seagate', '1TB', 'HDD', 'SE1TB'),
+    ('Western Digital', '2TB', 'HDD', 'WD2TB'),
+    ('Samsung', '500GB', 'SSD', 'SA500GB'),
+    ('Crucial', '256GB', 'SSD', 'CR256GB'),
+    ('SanDisk', '1TB', 'SSD', 'SA1TB'),
+    ('Toshiba', '2TB', 'HDD', 'TO2TB'),
+    ('Intel', '512GB', 'SSD', 'IN512GB'),
+    ('Kingston', '256GB', 'SSD', 'KI256GB'),
+    ('Seagate', '2TB', 'HDD', 'SE2TB'),
+    ('Western Digital', '4TB', 'HDD', 'WD4TB'),
+    ('Corsair', '1TB', 'SSD', 'CO1TB'),
+    ('ADATA', '512GB', 'SSD', 'AD512GB'),
+    ('Samsung', '256GB', 'SSD', 'SA256GB'),
+    ('Seagate', '4TB', 'HDD', 'SE4TB'),
+    ('Western Digital', '1TB', 'HDD', 'WD1TB'),
+    ('Crucial', '1TB', 'SSD', 'CR1TB'),
+    ('SanDisk', '512GB', 'SSD', 'SA512GB'),
+    ('Seagate', '500GB', 'SSD', 'SE500GB'),
+    ('Toshiba', '1TB', 'HDD', 'TO1TB'),
+    ('Intel', '256GB', 'SSD', 'IN256GB'),
+    ('Kingston', '512GB', 'SSD', 'KI512GB'),
+    ('Seagate', '256GB', 'SSD', 'SE256GB'),
+    ('Western Digital', '500GB', 'SSD', 'WD500GB'),
+    ('Corsair', '512GB', 'SSD', 'CO512GB'),
+    ('ADATA', '256GB', 'SSD', 'AD256GB');
+
 
 -- Insert 25 entries into the GPU table
 INSERT INTO GPU (Manufacturer, Model, VRAM)
