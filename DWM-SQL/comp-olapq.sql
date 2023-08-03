@@ -27,6 +27,11 @@ FROM CPU
 ORDER BY Cores DESC
 LIMIT 5;
 
+# Total capacity of storage (HDD and SSD) for each manufacturer:
+SELECT Manufacturer, SUM(CONVERT(Capacity, UNSIGNED)) AS Total_Capacity_GB FROM Storage GROUP BY Manufacturer;
+
+# Average clock speed of CPUs for each manufacturer:
+SELECT h.Manufacturer, AVG(CONVERT(c.ClockSpeed, FLOAT)) AS Average_ClockSpeed_GHz FROM Hardware h JOIN CPU c ON h.CPU = c.Model GROUP BY h.Manufacturer;
 
 # Minor Corrections
 
