@@ -218,3 +218,26 @@ VALUES
     ('Thermaltake', '650W', '80+ Gold', 'TT650'),
     ('Seasonic', '700W', '80+ Gold', 'SS700'),
     ('Cooler Master', '850W', '80+ Platinum', 'CM850P');
+
+INSERT INTO sales (purchase_id, cost, amount_sold, month)
+VALUES
+    (5487, 150.00, 10, 'January'),
+    (8902, 200.50, 15, 'February'),
+    (2365, 120.75, 8, 'March'),
+    (7541, 180.25, 12, 'April'),
+    (1123, 250.00, 18, 'May'),
+    (9876, 300.80, 20, 'June'),
+    (3333, 175.50, 9, 'July'),
+    (4567, 220.00, 14, 'August'),
+    (9090, 160.25, 11, 'September'),
+    (3456, 190.50, 13, 'October'),
+    (6789, 210.75, 15, 'November'),
+    (5432, 270.25, 17, 'December'),
+    (8765, 145.00, 8, 'January'),
+    (9874, 185.25, 12, 'February'),
+    (4563, 130.75, 7, 'March'),
+    (2456, 195.50, 10, 'April'),
+    (6789, 240.25, 16, 'May'),
+    (3451, 280.80, 19, 'June'),
+    (2356, 165.50, 9, 'July'),
+    (7890, 210.00, 14, 'August');
