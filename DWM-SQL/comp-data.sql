@@ -60,3 +60,10 @@ CREATE TABLE PSU (
     Model VARCHAR(100) PRIMARY KEY
 );
 
+CREATE TABLE sales (
+    purchase_id INT PRIMARY KEY,
+    cost DECIMAL(10, 2),
+    amount_sold INT,
+    month VARCHAR(20)
+);
+
